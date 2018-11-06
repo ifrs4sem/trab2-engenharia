@@ -1,5 +1,5 @@
 package questao2;
 
 public interface TimeObserver {
-	public void atualizaTempo();
+	public void atualizaTempo(int tempo);
 }
