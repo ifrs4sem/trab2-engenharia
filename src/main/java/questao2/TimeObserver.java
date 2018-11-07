@@ -1,5 +1,7 @@
 package questao2;
 
-public interface TimeObserver {
-	public void atualizaTempo(int tempo);
+public abstract class TimeObserver {
+	protected int tempoAtual;
+	protected Subject subject;
+	public abstract void atualizaTempo(int tempo);
 }

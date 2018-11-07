@@ -1,13 +1,7 @@
 package questao2;
 
 public abstract class Subject {
-	public void addObservador(TimeObserver obs) {
-		
-	}
-	public void removeObservador(TimeObserver obs) {
-		
-	}
-	public void notificar() {
-		
-	}
+	public abstract void addObservador(TimeObserver obs) ;
+	public abstract void removeObservador(TimeObserver obs) ;
+	public abstract void notificar() ;
 }

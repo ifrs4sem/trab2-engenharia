@@ -1,8 +1,9 @@
 package questao1;
 
 import questao2.Subject;
+import questao2.TimeObserver;
 
-public class Cronometro extends Subject{
+public class Cronometro{
 	private int tempoAtual = 0, tempoLimite; 
 	private static Cronometro instancia;
 	
@@ -27,5 +28,8 @@ public class Cronometro extends Subject{
 		}
 		return instancia;
 	}
+
+
+	
 	
 }
